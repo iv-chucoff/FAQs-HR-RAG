@@ -1,0 +1,146 @@
+
+POLÍTICAS, 1.1 ¿Cómo se gestionan las políticas internas dentro del sistema?
+El sistema permite centralizar todas las políticas corporativas en un repositorio digital estructurado por categorías (RRHH, Seguridad, Compliance, Conducta, Beneficios, IT, Ética Empresarial, Protección de Datos, entre otras), lo que facilita su organización, trazabilidad y actualización continua. Cada política puede configurarse con versión, fecha de vigencia, fecha de revisión programada, responsable asignado y alcance organizacional específico.
+
+Las políticas pueden configurarse como obligatorias o informativas. En el caso de las obligatorias, el empleado debe aceptarlas digitalmente antes de continuar utilizando determinadas funcionalidades críticas del sistema. La aceptación queda registrada con trazabilidad completa (timestamp, IP, usuario, versión exacta del documento aceptado), garantizando evidencia legal en caso de auditorías o conflictos internos.
+
+Además, el sistema permite programar revisiones periódicas automáticas. Por ejemplo, una política de seguridad informática puede requerir revalidación anual. El módulo de seguimiento muestra métricas de cumplimiento, tasa de aceptación por área y alertas sobre empleados pendientes. Esto reduce riesgos regulatorios y asegura alineación organizacional constante.
+
+POLÍTICAS, 1.2 ¿Se pueden versionar las políticas?
+Sí. Cada política mantiene un historial detallado de versiones, incluyendo fecha de modificación, usuario responsable del cambio y descripción de las diferencias respecto a la versión anterior. El sistema permite visualizar comparaciones entre versiones para identificar exactamente qué cláusulas fueron modificadas.
+
+La versionación es especialmente relevante para organizaciones reguladas o multinacionales, donde cambios normativos pueden requerir ajustes frecuentes. También permite programar futuras entradas en vigencia, facilitando transiciones normativas sin afectar la operación actual.
+
+Este mecanismo proporciona respaldo documental en auditorías legales, revisiones regulatorias, certificaciones (como ISO o SOC2) y procesos de due diligence en fusiones o adquisiciones.
+
+POLÍTICAS, 1.3 ¿Cómo se publica una nueva política?
+Procedimiento: Menú > Administración > Políticas > Crear nueva política. Desde este módulo se puede cargar un documento externo (PDF, Word) o redactar directamente en el editor interno con formato enriquecido. Luego se define categoría, obligatoriedad, segmentación por audiencia (global, por país, por área, por rol o por entidad legal), fecha de vigencia y notificaciones automáticas.
+
+El sistema permite previsualizar el documento antes de publicarlo y configurar recordatorios escalonados para empleados que no hayan completado la aceptación. Una vez publicada, se activa un panel de monitoreo que muestra estado de aceptación en tiempo real.
+
+También es posible generar reportes descargables para presentar ante auditorías internas o externas, incluyendo evidencia individual de aceptación.
+
+POLÍTICAS, 1.4 ¿Se pueden diferenciar políticas por país?
+Sí. El sistema soporta segmentación avanzada por país, entidad legal, tipo de contrato, seniority y rol organizacional. Esto permite adaptar las políticas a normativas laborales locales sin afectar otras jurisdicciones.
+
+Por ejemplo, las políticas de vacaciones, licencias o protección de datos pueden variar significativamente entre países. El sistema garantiza que cada empleado visualice únicamente la versión aplicable según su marco legal y contractual.
+
+Adicionalmente, se pueden generar matrices de cumplimiento por país para verificar que cada jurisdicción tenga asignadas las políticas requeridas por su normativa específica.
+
+FUNCIONALIDADES DEL SISTEMA, 2.1 ¿El sistema permite autogestión del empleado?
+Sí. El sistema opera bajo un modelo self-service que permite a los empleados actualizar datos personales, descargar recibos de sueldo, solicitar vacaciones o licencias, consultar evaluaciones de desempeño, revisar políticas vigentes y gestionar cambios de datos bancarios.
+
+Además, pueden visualizar historial laboral completo, promociones anteriores, evolución salarial y estado de solicitudes pendientes. Esto aumenta la transparencia organizacional y reduce la dependencia operativa del equipo de HR.
+
+La autogestión también disminuye errores manuales, mejora tiempos de respuesta y fortalece la experiencia del colaborador al brindarle control sobre su información.
+
+FUNCIONALIDADES DEL SISTEMA, 2.2 ¿Se pueden configurar permisos personalizados?
+Sí. El sistema utiliza arquitectura RBAC (Role-Based Access Control), permitiendo granularidad por módulo, acción y nivel de sensibilidad del dato. Se puede definir quién puede ver, editar, aprobar, exportar o eliminar información específica.
+
+Por ejemplo, un manager puede visualizar performance de su equipo pero no información médica; Finance puede acceder a datos de compensación pero no registros disciplinarios; IT puede gestionar accesos sin visualizar salario.
+
+Además, el sistema permite auditorías de permisos para detectar accesos indebidos o inconsistencias en configuraciones de seguridad.
+
+FUNCIONALIDADES DEL SISTEMA, 2.3 ¿Dónde se configuran los roles y permisos?
+Procedimiento: Menú > Configuración > Roles y Permisos. Desde este módulo se pueden crear nuevos roles personalizados, modificar roles existentes, clonar configuraciones y aplicar restricciones por país o entidad legal.
+
+Cada modificación queda registrada en el log de auditoría, permitiendo rastrear quién realizó cambios y cuándo. Esto es especialmente relevante en organizaciones con altos estándares de seguridad de la información.
+
+FUNCIONALIDADES DEL SISTEMA, 2.4 ¿Se puede integrar con otros sistemas?
+Sí. El sistema permite integración con Google Workspace, Microsoft 365, Slack, sistemas de Payroll externos, ERP corporativos, herramientas de Business Intelligence y ATS especializados.
+
+Las integraciones pueden realizarse mediante conectores nativos o API REST pública. Esto permite sincronización automática de altas, bajas y cambios organizacionales, evitando duplicación de datos y mejorando consistencia operativa.
+
+PROCEDIMIENTOS INTERNOS, 3.1 ¿Cómo se aprueba una solicitud de vacaciones?
+Procedimiento: Menú > Solicitudes > Vacaciones > Pendientes de aprobación. El manager puede revisar días solicitados, balance disponible actualizado, calendario del equipo y posibles solapamientos.
+
+El sistema genera alertas si el saldo es insuficiente o si existen conflictos críticos dentro del equipo. Una vez aprobada la solicitud, se descuenta automáticamente el saldo y se actualizan métricas de ausentismo en Analytics.
+
+PROCEDIMIENTOS INTERNOS, 3.2 ¿Cómo se carga una promoción?
+Procedimiento: Menú > Empleados > Seleccionar empleado > Cambios laborales > Nueva promoción. Allí se define nuevo rol, banda salarial, fecha efectiva, motivo del cambio y documentación asociada.
+
+El workflow puede incluir aprobaciones escalonadas por HR y Finance, asegurando alineación presupuestaria. El sistema guarda histórico completo para análisis de movilidad interna y planificación de talento.
+
+PROCEDIMIENTOS INTERNOS, 3.3 ¿Cómo se actualiza el salario de un colaborador?
+Sí, puede hacerse manualmente o mediante workflow estructurado. Procedimiento: Menú > Compensaciones > Ajustes salariales. Seleccionar empleado, ingresar nuevo salario, indicar motivo, definir fecha de vigencia y aprobar.
+
+El sistema registra el cambio en el historial salarial y puede proyectar impacto presupuestario agregado para validar sostenibilidad financiera.
+
+PERFORMANCE Y EVALUACIONES, 4.1 ¿Cómo funcionan las evaluaciones 360°?
+Las evaluaciones 360° permiten recopilar feedback desde múltiples perspectivas: manager, pares, reportes directos y autoevaluación. El sistema puede anonimizar respuestas si está configurado como confidencial y consolida resultados en un score ponderado.
+
+Las evaluaciones incluyen métricas cuantitativas y comentarios cualitativos, generando informes descargables que pueden utilizarse en conversaciones de desarrollo profesional.
+
+Este enfoque promueve cultura de feedback continuo y reduce sesgos derivados de evaluaciones exclusivamente jerárquicas.
+
+PERFORMANCE Y EVALUACIONES, 4.2 ¿Se pueden crear ciclos personalizados de evaluación?
+Sí. Se puede configurar periodicidad (anual, semestral, trimestral o ad hoc), competencias a medir, ponderaciones, escalas de rating y fechas límite.
+
+El sistema envía recordatorios automáticos y ofrece dashboards de seguimiento para asegurar cumplimiento. También permite vincular planes de desarrollo específicos a cada evaluación.
+
+PERFORMANCE Y EVALUACIONES, 4.3 ¿Dónde se configuran los ciclos de performance?
+Procedimiento: Menú > Performance > Ciclos de evaluación > Crear ciclo. Se define nombre, alcance, fechas, participantes, evaluadores y reglas de consolidación.
+
+HR puede monitorear avance en tiempo real y detectar evaluadores retrasados mediante reportes automatizados.
+
+PERFORMANCE Y EVALUACIONES, 4.4 ¿Se puede vincular performance con compensación?
+Sí. Se pueden configurar reglas automáticas que vinculen rating con bonos, promociones o ajustes salariales.
+
+Esto garantiza coherencia entre desempeño y recompensas, promoviendo meritocracia y transparencia organizacional.
+
+PERFORMANCE Y EVALUACIONES, 4.5 ¿El sistema guarda histórico de evaluaciones?
+Sí. Cada empleado mantiene historial completo con evaluaciones previas, evolución de rating, comentarios históricos y planes de desarrollo asociados.
+
+Esto permite análisis longitudinal del crecimiento profesional y detección temprana de riesgos de rotación.
+
+ONBOARDING / OFFBOARDING, 5.1 ¿Cómo funciona el onboarding automatizado?
+El onboarding inicia al crear un nuevo empleado. Procedimiento: Menú > Empleados > Nuevo ingreso.
+
+El sistema puede disparar firma digital de contrato, asignación automática de tareas IT, creación de usuario en herramientas, activación de beneficios y envío de comunicación de bienvenida.
+
+Todo el proceso queda auditado y medido, permitiendo evaluar tiempo promedio de onboarding y detectar cuellos de botella.
+
+ONBOARDING / OFFBOARDING, 5.2 ¿Se pueden crear checklists personalizados?
+Sí. Se pueden crear plantillas por rol, área y país. Esto permite adaptar el proceso según tipo de ingreso, nivel técnico o regulación local.
+
+ONBOARDING / OFFBOARDING, 5.3 ¿Cómo funciona el offboarding?
+Incluye notificación formal de salida, cálculo de liquidación, revocación automática de accesos, encuesta de salida y generación de certificados laborales.
+
+Procedimiento: Menú > Empleados > Baja laboral > Iniciar proceso. El sistema puede programar fecha efectiva futura y ejecutar acciones automáticamente en ese momento.
+
+ONBOARDING / OFFBOARDING, 5.4 ¿Se pueden automatizar las bajas de accesos IT?
+Sí. Las integraciones permiten desactivar email, Slack, GitHub, ERP y VPN en la fecha efectiva de baja, reduciendo riesgos de seguridad.
+
+ANALYTICS, 6.1 ¿Qué métricas incluye el módulo de Analytics?
+Headcount total, rotación voluntaria e involuntaria, tiempo promedio de contratación, distribución salarial, diversidad, performance distribution, promociones internas, ausentismo y movilidad interna.
+
+Las métricas pueden visualizarse por país, área o seniority, facilitando análisis estratégico para toma de decisiones.
+
+ANALYTICS, 6.2 ¿Dónde se consultan los dashboards?
+Procedimiento: Menú > Analytics > Tableros. Se puede filtrar por país, área, seniority, fecha y tipo de contrato.
+
+ANALYTICS, 6.3 ¿Se pueden exportar reportes?
+Sí. Formatos disponibles: CSV, Excel, PDF y API. Esto permite integración con herramientas externas de análisis avanzado.
+
+ANALYTICS, 6.4 ¿Se puede crear un dashboard personalizado?
+Sí. Procedimiento: Menú > Analytics > Crear tablero personalizado. Permite seleccionar métricas, agregar filtros, guardar vistas y compartir con otros usuarios.
+
+IA EN HR, 7.1 ¿La plataforma utiliza inteligencia artificial?
+Sí. Se aplica en screening automático de CV, análisis de sentimiento en encuestas, predicción de rotación, sugerencias de desarrollo y resumen automático de evaluaciones.
+
+IA EN HR, 7.2 ¿La IA reemplaza decisiones humanas?
+No. Actúa como asistente de decisión, brindando insights basados en datos. Las decisiones finales recaen en HR o liderazgo.
+
+IA EN HR, 7.3 ¿Cómo funciona la predicción de rotación?
+El sistema analiza antigüedad, performance, cambios salariales, engagement y patrones históricos, generando un score de riesgo.
+
+Procedimiento: Menú > Analytics > IA Predictiva > Riesgo de rotación.
+
+LEGAL, 8.1 ¿Cumple con normativas de protección de datos?
+Sí. Cumple con GDPR, leyes locales de protección de datos y regulaciones laborales. Incluye consentimiento explícito, derecho al olvido, exportación de datos y logs auditables.
+
+LEGAL, 8.2 ¿Se pueden generar reportes para auditorías?
+Sí. Procedimiento: Menú > Legal & Compliance > Reportes de auditoría. Incluye historial de cambios, accesos a datos sensibles, versionado de contratos y aceptación de políticas.
+
+LEGAL, 8.3 ¿Dónde se gestionan los consentimientos de datos?
+Menú > Administración > Privacidad y Consentimientos. Permite configurar cláusulas, activar consentimiento obligatorio y descargar historial.

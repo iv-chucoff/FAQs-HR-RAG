@@ -1,0 +1,37 @@
+[project]
+name = "faqs-hr-rag"
+version = "0.1.0"
+description = "Sistema de FAQs para una empresa de HR basado en RAG. Recupera documentación interna relevante y responde las consultas de los clientes."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.5.2",
+    "langchain-community>=0.4.1",
+    "langchain-openai>=1.1.10",
+    "langchain-text-splitters>=1.1.1",
+    "openai>=2.24.0",
+    "pydantic>=2.12.5",
+    "python-dotenv>=1.2.2",
+    "ruff>=0.15.4",
+]
+
+
+[tool.ruff.format]
+quote-style = "single"
+
+
+[tool.ruff.lint]
+select = [
+    # pycodestyle
+    "E",
+    # Pyflakes
+    "F",
+    # pyupgrade
+    "UP",
+    # flake8-bugbear
+    "B",
+    # flake8-simplify
+    "SIM",
+    # isort
+    "I",
+]

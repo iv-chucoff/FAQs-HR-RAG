@@ -1,0 +1,41 @@
+{
+    "user_question": "como registro a un nuevo empleado?",
+    "system_answer": "El registro de un nuevo empleado se inicia al crear su perfil en el sistema. Procedimiento: Menú > Empleados > Nuevo ingreso. Esto permite disparar la firma digital de contrato, asignación automática de tareas IT, creación de usuario en herramientas, activación de beneficios y envío de información relevante.",
+    "chunks_related": [
+      "comentarios históricos y planes de desarrollo asociados.\n\nEsto permite análisis longitudinal del crecimiento profesional y detección temprana de riesgos de rotación.\n\nONBOARDING / OFFBOARDING, 5.1 ¿Cómo funciona el onboarding automatizado?\nEl onboarding inicia al crear un nuevo empleado. Procedimiento: Menú > Empleados > Nuevo ingreso.\n\nEl sistema puede disparar firma digital de contrato, asignación automática de tareas IT, creación de usuario en herramientas, activación de beneficios y envío de",        
+      "Menú > Empleados > Seleccionar empleado > Cambios laborales > Nueva promoción. Allí se define nuevo rol, banda salarial, fecha efectiva, motivo del cambio y documentación asociada.\n\nEl workflow puede incluir aprobaciones escalonadas por HR y Finance, asegurando alineación presupuestaria. El sistema guarda histórico completo para análisis de movilidad interna y planificación de talento.\n\nPROCEDIMIENTOS INTERNOS, 3.3 ¿Cómo se actualiza el salario de un colaborador?\nSí, puede hacerse manualmente o",
+      "de un colaborador?\nSí, puede hacerse manualmente o mediante workflow estructurado. Procedimiento: Menú > Compensaciones > Ajustes salariales. Seleccionar empleado, ingresar nuevo salario, indicar motivo, definir fecha de vigencia y aprobar.\n\nEl sistema registra el cambio en el historial salarial y puede proyectar impacto presupuestario agregado para validar sostenibilidad financiera.\n\nPERFORMANCE Y EVALUACIONES, 4.1 ¿Cómo funcionan las evaluaciones 360°?\nLas evaluaciones 360° permiten recopilar"
+    ],
+    "evaluation": {
+      "score": 8,
+      "reason": "La respuesta es relevante y utiliza información de los chunks, pero no cubre completamente el proceso de registro. Se menciona el procedimiento y algunos beneficios, pero no se detalla el uso de comentarios históricos ni planes de desarrollo, que podrían ser útiles en el contexto del onboarding."
+    }
+}
+
+{
+  "user_question": "Se puede hacer una evaluacion 360?",
+  "system_answer": "Sí, se puede hacer una evaluación 360°.",
+  "chunks_related": [
+    "360°?\nLas evaluaciones 360° permiten recopilar feedback desde múltiples perspectivas: manager, pares, reportes directos y autoevaluación. El sistema puede anonimizar respuestas si está configurado como confidencial y consolida resultados en un score ponderado.\n\nLas evaluaciones incluyen métricas cuantitativas y comentarios cualitativos, generando informes descargables que pueden utilizarse en conversaciones de desarrollo profesional.\n\nEste enfoque promueve cultura de feedback continuo y reduce",
+    "de un colaborador?\nSí, puede hacerse manualmente o mediante workflow estructurado. Procedimiento: Menú > Compensaciones > Ajustes salariales. Seleccionar empleado, ingresar nuevo salario, indicar motivo, definir fecha de vigencia y aprobar.\n\nEl sistema registra el cambio en el historial salarial y puede proyectar impacto presupuestario agregado para validar sostenibilidad financiera.\n\nPERFORMANCE Y EVALUACIONES, 4.1 ¿Cómo funcionan las evaluaciones 360°?\nLas evaluaciones 360° permiten recopilar",
+    "promueve cultura de feedback continuo y reduce sesgos derivados de evaluaciones exclusivamente jerárquicas.\n\nPERFORMANCE Y EVALUACIONES, 4.2 ¿Se pueden crear ciclos personalizados de evaluación?\nSí. Se puede configurar periodicidad (anual, semestral, trimestral o ad hoc), competencias a medir, ponderaciones, escalas de rating y fechas límite.\n\nEl sistema envía recordatorios automáticos y ofrece dashboards de seguimiento para asegurar cumplimiento. También permite vincular planes de desarrollo"
+  ],
+  "evaluation": {
+    "score": 8,
+    "reason": "La respuesta es relevante y directa, confirmando que se puede realizar una evaluación 360°. Sin embargo, podría mejorar al incluir más detalles sobre el proceso y beneficios de estas evaluaciones, ya que los chunks recuperados ofrecen información valiosa que no se utilizó completamente. La respuesta es clara, pero le falta profundidad para ser más completa."
+  }
+}
+
+{
+    "user_question": "Como se hace una evaluacion 360?",
+    "system_answer": "Las evaluaciones 360° se realizan recopilando feedback desde múltiples perspectivas, que incluyen al manager, pares, reportes directos y autoevaluación. El sistema puede configurarse para anonimizar las respuestas si se desea mantener la confidencialidad. Los resultados se consolidan en un score ponderado y se incluyen métricas cuantitativas y comentarios cualitativos, generando informes descargables que pueden utilizarse en conversaciones de desarrollo profesional. Este enfoque promueve una cultura de feedback continuo y reduce sesgos derivados de evaluaciones exclusivamente jerárquicas.",
+    "chunks_related": [
+      "360°?\nLas evaluaciones 360° permiten recopilar feedback desde múltiples perspectivas: manager, pares, reportes directos y autoevaluación. El sistema puede anonimizar respuestas si está configurado como confidencial y consolida resultados en un score ponderado.\n\nLas evaluaciones incluyen métricas cuantitativas y comentarios cualitativos, generando informes descargables que pueden utilizarse en conversaciones de desarrollo profesional.\n\nEste enfoque promueve cultura de feedback continuo y reduce",
+      "promueve cultura de feedback continuo y reduce sesgos derivados de evaluaciones exclusivamente jerárquicas.\n\nPERFORMANCE Y EVALUACIONES, 4.2 ¿Se pueden crear ciclos personalizados de evaluación?\nSí. Se puede configurar periodicidad (anual, semestral, trimestral o ad hoc), competencias a medir, ponderaciones, escalas de rating y fechas límite.\n\nEl sistema envía recordatorios automáticos y ofrece dashboards de seguimiento para asegurar cumplimiento. También permite vincular planes de desarrollo",
+      "de un colaborador?\nSí, puede hacerse manualmente o mediante workflow estructurado. Procedimiento: Menú > Compensaciones > Ajustes salariales. Seleccionar empleado, ingresar nuevo salario, indicar motivo, definir fecha de vigencia y aprobar.\n\nEl sistema registra el cambio en el historial salarial y puede proyectar impacto presupuestario agregado para validar sostenibilidad financiera.\n\nPERFORMANCE Y EVALUACIONES, 4.1 ¿Cómo funcionan las evaluaciones 360°?\nLas evaluaciones 360° permiten recopilar"
+    ],
+    "evaluation": {
+      "score": 9,
+      "reason": "La respuesta es muy relevante y utiliza información de los chunks recuperados, explicando claramente cómo se realiza una evaluación 360°. Cubre aspectos como la recopilación de feedback desde diferentes perspectivas y la posibilidad de anonimizar respuestas. Sin embargo, podría mejorar al incluir más detalles sobre la periodicidad y personalización de las evaluaciones, que también se mencionan en los chunks."
+    }
+}
